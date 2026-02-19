@@ -12,7 +12,8 @@
   },
   "dependencies": {
     "@types/nodemailer": "^7.0.10",
-    "next": "15.2.0",
+    "eslint-config-next": "^16.1.6",
+    "next": "^16.1.6",
     "nodemailer": "^8.0.1",
     "react": "19.0.0",
     "react-dom": "19.0.0"
