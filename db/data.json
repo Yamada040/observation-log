@@ -1,0 +1,43 @@
+{
+  "users": [
+    {
+      "id": "331ee1be-f081-4baa-a860-1cb3ee930962",
+      "email": "syuuto20030912@gmail.com",
+      "displayName": "a",
+      "timezone": "Asia/Tokyo",
+      "createdAt": "2026-02-18T15:29:12.811Z",
+      "updatedAt": "2026-02-19T05:37:28.577Z"
+    }
+  ],
+  "observations": [
+    {
+      "id": "aafaf568-eb31-4399-bae4-3bcdc0646332",
+      "userId": "331ee1be-f081-4baa-a860-1cb3ee930962",
+      "title": "a",
+      "observation": "a",
+      "context": [
+        {
+          "key": "where",
+          "value": "office"
+        },
+        {
+          "key": "device",
+          "value": "macbooka"
+        }
+      ],
+      "interpretation": "a",
+      "nextAction": "a",
+      "status": "Active",
+      "confidence": "Medium",
+      "projectId": null,
+      "tags": [],
+      "links": [],
+      "attachments": [],
+      "createdAt": "2026-02-19T05:36:43.325Z",
+      "updatedAt": "2026-02-19T05:36:43.325Z"
+    }
+  ],
+  "projects": [],
+  "tags": [],
+  "authChallenges": []
+}

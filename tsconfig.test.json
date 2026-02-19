@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": ["es2022", "dom"],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "strict": false,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "outDir": ".tmp-test-build",
+    "rootDir": ".",
+    "types": ["node"],
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./*"]
+    }
+  },
+  "include": ["lib/**/*.ts", "app/api/**/*.ts", "tests-ts/**/*.ts"],
+  "exclude": ["app/**/*.tsx"]
+}

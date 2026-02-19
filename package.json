@@ -1,0 +1,25 @@
+{
+  "name": "observation-log",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "npm run test:smoke && npm run test:unit",
+    "test:smoke": "node --test --test-concurrency=1 tests/*.test.js",
+    "test:unit": "tsc -p tsconfig.test.json && mkdir -p .tmp-test-build/node_modules/@ && rm -rf .tmp-test-build/node_modules/@/lib && cp -R .tmp-test-build/lib .tmp-test-build/node_modules/@/lib && node --test --test-concurrency=1 .tmp-test-build/tests-ts/*.test.js"
+  },
+  "dependencies": {
+    "@types/nodemailer": "^7.0.10",
+    "next": "15.2.0",
+    "nodemailer": "^8.0.1",
+    "react": "19.0.0",
+    "react-dom": "19.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "25.2.3",
+    "@types/react": "19.2.14",
+    "typescript": "5.9.3"
+  }
+}
